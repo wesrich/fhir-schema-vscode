@@ -1,0 +1,19 @@
+{
+    "name": "fhir-schema",
+    "displayName": "fhir-schema",
+    "description": "FHIR Schema Helper",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.44.0"
+    },
+    "categories": [
+    ],
+    "contributes": {
+        "jsonValidation": [
+            {
+                "fileMatch": "*.fhir.json",
+                "url": "./schemas/fhir.schema.json"
+            }
+        ]
+    }
+}
